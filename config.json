@@ -1,0 +1,22 @@
+{
+    "paths": {
+        "watermarked_folder": "Output",
+        "logo_path": "logo.png",
+        "logo_landscape_path": "logo-landscape.png",
+        "excel_report": "Master_Log.xlsx"
+    },
+    "processing": {
+        "max_workers": 10,
+        "sync_delay_seconds": 3,
+        "watermark_padding": 50,
+        "prefix_name": "Event Run"
+    },
+    "photographers": {
+        "Fotografer A": {"path": "Raw/Fotografer A", "code": "A"},
+        "Fotografer B": {"path": "Raw/Fotografer B", "code": "B"},
+        "Fotografer C": {"path": "Raw/Fotografer C", "code": "C"}
+    },
+    "database": {
+        "sqlite_file": "history.sqlite"
+    }
+}

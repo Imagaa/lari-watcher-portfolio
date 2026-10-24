@@ -1,0 +1,13 @@
+# Lingkungan Python
+venv/
+__pycache__/
+*.pyc
+
+# Database, laporan & folder foto lokal
+*.sqlite
+*.db
+*.xlsx
+Raw/
+Output/
+Aman_Dihapus/
+HASIL_TESTER_*.jpg
